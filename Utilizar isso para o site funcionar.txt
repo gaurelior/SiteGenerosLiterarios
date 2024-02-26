@@ -1,0 +1,11 @@
+para o site funcionar precisa adicionar a pasta do site no htdocs do xampp
+CREATE DATABASE generosdb;
+USE generosdb;
+
+CREATE TABLE Usuarios (
+	id int not null primary key auto_increment,
+    nome varchar(128) not null,
+    sobrenome varchar(128) not null,
+    senha varchar(128) not null,
+    email varchar(128) not null
+);
